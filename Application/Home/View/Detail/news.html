@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻系统-CMS内容管理系统</title>
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/index.css">
+    <script src="__PUBLIC__/js/jquery-3.2.1.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</head>
+<body>
+     <include file="Public/nav"/>
+    <section>
+        <div class="container">
+            <p class="list_title">
+                <b>当前位置</b>
+                <foreach name="navName" item="val">
+                    <b class="glyphicon glyphicon-menu-right"></b>
+                    <a href="{:U('Home/List/index',array('id'=>$val['id']))}" class="more">{$val['nav_name']}</a>
+                </foreach>
+            </p>
+            <div class="news">
+                <h3 class="text-center">{$newsInfo.title}</h3>
+                <p class="text-center">
+                    <time>时间：{$newsInfo.date|date='Y-m-d H:i:s',###}</time>
+                    <span>来源：{$newsInfo.source}</span>
+                    <span> 作者：{$newsInfo.author} </span>
+                    <span> 点击量：{$newsInfo.count} 次</span>
+                </p>
+                <p class="news_intro">{$newsInfo.info}</p>
+                <p class="news_content">{$newsInfo.content}</p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright (C) 2004-2011 antvv.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

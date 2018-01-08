@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+#footer{width:980px;height:140px;margin:0 auto;}
+.f_top{width:auto;height:105px;border:1px solid #CCC;}
+.f_bottom{width:auto;height:40px;}
+.f_top h4{background-image:url(../images/lbg.png);color:#090;font-weight:bold;padding-left:8px;}
+.f_top h4 a{float:right;margin-right:10px;color:#090;}
+.f_top p{margin:7px 0 7px 10px;font-size:18px;color:#999;}
+.hr1{border-top:1px dashed #999;width:980px;}
+.f_top img{margin:10px 5px 10px 10px}
+.f_bottom p{text-align:center;}

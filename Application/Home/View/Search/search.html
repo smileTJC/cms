@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="__PUBLIC__/css/bootstrap.css">
+    <link rel="stylesheet" href="__PUBLIC__/css/index.css">
+    <script src="__PUBLIC__/js/jquery-3.2.1.js"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <include file="Public/nav"/>
+    <section>
+        <div class="container text-center">
+            <p class="list_title">
+                <b>当前位置</b>
+                    <b class="glyphicon glyphicon-menu-right"></b>
+                    <b>搜索：</b>
+                     <b>{$Think.get.search}</b>
+            </p>
+            <foreach name="search" item="searchI">
+                <div class="media news_info">
+                    <div class="media-left">
+                        <a href="{:U('Home/Detail/index',array('id'=>$searchI['id']))}">
+                            <img src="__PUBLIC__/img/none.jpg" alt="" class="media-object">
+                        </a>
+                    </div>
+                    <div class="media-right">
+                        <div class="media-heading">
+                            <b>[{$searchI['nav_name']}]</b>
+                            <a href="{:U('Home/Detail/index',array('id'=>$searchI['id']))}">{$searchI.title}</a>
+                        </div>
+                        <p>
+                            <time>日期: {$searchI.date|date="Y-m-d H:i:s",###}</time>
+                            <span>点击率：{$searchI.count} </span>
+                            <span>关键字：[{$searchI.keyword}]</span>
+                        </p>
+                        <p>{$searchI.info|subText=100,###}</p>
+                    </div>
+                </div>
+            </foreach>
+            <ul class="pagination ">
+                {$page}
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="container text-center">
+            <p>Copyright (C) 2004-2011 antvv.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

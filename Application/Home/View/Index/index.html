@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻系统-CMS内容管理系统</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+    <!--<import type="css" file="css.bootstrap" />
+    <import type="css" file="css.index" />
+    <import type="js" file="js.jquery-3.2.1" />
+    <import type="js" file="js.bootstrap.min" />-->
+</head>
+<body>
+     <include file="Public/nav"/>
+    <section>
+        <div class="container">
+            <div class="row">
+                <foreach name="four" item="fourNav" key="k">
+                    <div class="col-lg-6">
+                        <div class="list">
+                            <p class="list_title">
+                                <b>{$fourNav.nav_name}</b>
+                                <a href="{:u('Home/List/index',array('id'=>$fourNav['id']))}" class="pull-right more">更多</a>
+                            </p>
+                            <ul class="list-unstyled list_wrapper">
+                                <foreach name="news[$k]" item="newsI">
+                                    <li>
+                                        <span class="glyphicon glyphicon-menu-right"></span>
+                                        <a href="{:U('Home/Detail/index',array('id'=>$newsI['id']))}" class="list_info">{$newsI.title}</a>
+                                        <time class="pull-right list_info">{$newsI.date|date='m-d',###}</time>
+                                    </li>
+                                </foreach>
+                            </ul>
+                        </div>
+                    </div>
+                </foreach>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container text-center">
+            <p>Copyright (C) 2004-2011 antvv.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

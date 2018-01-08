@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻系统-CMS内容管理系统</title>
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="__PUBLIC__/css/index.css">
+    <script type="text/javascript" src="__PUBLIC__/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="__PUBLIC__/js/index.js"></script>
+</head>
+<body>
+<include file="Public/nav"/>
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <div class="news_list">
+                    <p class="list_title">
+                        <b>当前位置</b>
+                        <foreach name="navName" item="nav">
+                            <b class="glyphicon glyphicon-menu-right"></b>
+                            <a href="{:U('Home/List/index',array('id'=>$nav['id']))}"
+                               class="more">{$nav['nav_name']}</a>
+                        </foreach>
+                    </p>
+                    <foreach name="list" item="list_news">
+                        <div class="media news_info">
+                            <div class="media-left">
+                                <a href="{:U('Home/Detail/index',array('id'=>$list_news['id']))}">
+                                    <img style="width: 120px" src="__ROOT__/{$list_news['thumbnail']|default='Public/img/none.jpg'}" alt="" class="media-object">
+                                </a>
+                            </div>
+                            <div class="media-right">
+                                <div class="media-heading">
+                                    <b>[{$list_news['nav_name']}]</b>
+                                    <a href="{:U('Home/Detail/index',array('id'=>$list_news['id']))}">{$list_news.title}</a>
+                                </div>
+                                <p>
+                                    <time>日期: {$list_news.date|date="Y-m-d H:i:s",###}</time>
+                                    <span>点击率：{$list_news.count} </span>
+                                    <span>关键字：[{$list_news.keyword}]</span>
+                                </p>
+                                <p>{$list_news.info|subText=100,###}</p>
+                            </div>
+                        </div>
+                    </foreach>
+
+                    <ul class="pagination">
+                        {$page}
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="submenu">
+                    <p class="list_title text-center"><b>子栏目列表</b></p>
+                    <div class="submenu_list">
+                        <foreach name="subNav" item="submenu">
+                            <a href="{:U('Home/List/index',array('id'=>$submenu['id']))}" class="btn btn-success">{$submenu.nav_name}</a>
+                        </foreach>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="container text-center">
+        <p>Copyright (C) 2004-2011 antvv.com 版权所有</p>
+    </div>
+</footer>
+</body>
+</html>

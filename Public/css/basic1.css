@@ -1,0 +1,27 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+ul li{list-style-type:none;}
+a{text-decoration:none;}
+#header{width:980px;margin:0 auto;}
+.h_top{width:auto;height:26px;margin:0 auto;background-image:url(../images/lbg.png);}
+.h_top ul{float:right;}
+.h_top ul li{float:left;line-height:26px;padding-right:10px;font-weight:bold;}
+.h_top_a{color:#F00;}
+
+.h_middle{width:auto;height:100px;}
+.h_middle a img{float:left;margin:10px;}
+.h_middle-img{float:right;margin-top:10px;border:1px solid #CCC;}
+
+.h_bottom{width:auto;height:70px;border:1px solid #CCC;}
+.h_bottom_top{width:auto;height:35px;background-image:url(../images/nav_bg.png);}
+.h_bottom_top ul{float:right;}
+.h_bottom_top ul li{float:left;line-height:35px;;font-weight:bold;margin-right:24px;}
+.h_bottom_top ul li a:hover{color:#C30;}
+
+.h_bottom_bottom{width:auto;height:35px;}
+#select{font-size:17px}
+#text{height:20px;width:200px;}
+#submit{width:50px;height:25px;font-weight:bold;}
+#tag{width:100px;text-align:right;font-weight:bold;color:#999;}
+.h_bottom_bottom td a{color:#060;}

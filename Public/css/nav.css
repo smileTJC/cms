@@ -1,0 +1,38 @@
+@charset "utf-8";
+header .top{
+    font-size: 10px;
+    height: 40px;
+    line-height: 40px;
+    background: #f7f7f7;
+    box-shadow: 0px 0px 5px #919191 inset;
+    border-radius: 5px;
+}
+
+nav {
+    border: 1px solid #CCCCCC;
+    padding-bottom: 5px;
+}
+
+.container {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+nav #nav {
+    margin-top: 5px;
+}
+
+nav .navbar {
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: 0px 0px 5px #919191 inset;
+
+}
+
+nav .bar {
+    background-color: #000;
+}
+
+nav .search {
+    margin-left: 5px;
+}

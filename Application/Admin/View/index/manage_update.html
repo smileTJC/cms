@@ -1,0 +1,25 @@
+<include file="public/admin_header"/>
+
+
+<form method="post" name="update">
+    <input type="hidden" value="{$info.id}" name="id"/>
+    <input type="hidden" value="{$info.admin_pass}" name="pass"/>
+    <table cellspacing="0" class="left">
+        <tr>
+            <td>用户名：<input type="text" name="admin_user" value="{$info.admin_user}" class="text" readonly="readonly"/></td>
+        </tr>
+        <tr>
+            <td>密　码：<input type="password" name="admin_pass" class="text"/> (* 留空则不修改)</td>
+        </tr>
+
+        <tr>
+            <td><input type="submit" name="send" value="修改管理员" onclick="return checkUpdateForm();" class="submit"/> [ <a
+                    href="{:U('Admin/Index/manage')}">返回列表</a> ]
+            </td>
+        </tr>
+    </table>
+</form>
+
+
+</body>
+</html>

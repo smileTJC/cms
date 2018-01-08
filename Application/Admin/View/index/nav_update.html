@@ -1,0 +1,11 @@
+<include file="public/nav_header"/>
+<form method="post" >
+    <input type="hidden" value="{$nav_info.id}" name="id" />
+    <table cellspacing="0" class="left">
+        <tr><td>导航名称：<input type="text" name="nav_name" value="{$nav_info.nav_name}" class="text" /> (* 导航名称不得小于两位，不得大于20位！)</td></tr>
+        <tr><td><textarea name="nav_info">{$nav_info.nav_info}</textarea> (* 描述不得大于200位！)</td></tr>
+        <tr><td><input type="submit" name="send" value="修改导航" onclick="return checkForm();" class="submit level" /> [ <a href="{:U('Admin/Index/nav')}">返回列表</a> ]</td></tr>
+    </table>
+</form>
+</body>
+</html>

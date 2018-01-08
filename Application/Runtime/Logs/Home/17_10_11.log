@@ -1,0 +1,2919 @@
+[ 2017-10-11T09:06:52+08:00 ] ::1 /cms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0910s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0360s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0080s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=39 )  [ RunTime:0.0540s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.063003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.063003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:57:54+08:00 ] ::1 /cms/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=39 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:58:00+08:00 ] ::1 /cms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=39 )  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:58:01+08:00 ] ::1 /cms/Home/List/index/id/39.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=39 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=39 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=39 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=39 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:58:01+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:58:02+08:00 ] ::1 /cms/Home/List/index/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T11:58:03+08:00 ] ::1 /cms/Home/List/index/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=10 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=10 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T15:39:16+08:00 ] ::1 /cms/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T15:39:20+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T15:39:25+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T15:39:27+08:00 ] ::1 /cms/Home/Detail/index/id/68.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `cms_content` [ RunTime:0.0110s ]
+SQL: SELECT `title`,`date`,`count`,`info`,`source`,`author`,`content` FROM `cms_content` WHERE ( id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `nav_name`,`pid`,n.id FROM cms_content c INNER JOIN cms_nav n on n.id = c.nav  WHERE ( c.id=68 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT `nav_name`,n.id FROM cms_nav n WHERE ( n.id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\cms\Application\Home\Controller\DetailController.class.php 第 34 行.
+SQL: UPDATE `cms_content` SET `count`='1' WHERE `id` = 68 [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.096006s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.096006s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.003000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2017-10-11T15:40:28+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T15:42:54+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T15:42:57+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T15:43:00+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T15:43:01+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T15:44:00+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T15:44:00+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:12:48+08:00 ] ::1 /cms/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:12:50+08:00 ] ::1 /cms/Home/List/index/id/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=42 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:12:51+08:00 ] ::1 /cms/Home/List/index/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=8 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:12:54+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:12:59+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:00+08:00 ] ::1 /cms/Home/List/index/id/'.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0020s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:13:01+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:01+08:00 ] ::1 /cms/Home/List/index/id/'.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:01+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:01+08:00 ] ::1 /cms/Home/List/index/id/'.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:02+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:02+08:00 ] ::1 /cms/Home/List/index/id/'.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:13:03+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:03+08:00 ] ::1 /cms/Home/List/index/id/'.
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:13:46+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:13:47+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:13:47+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:13:47+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:13:53+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:14:50+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:15:44+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:08+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:16:21+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:16:26+08:00 ] ::1 /cms/Home/List/index/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=4 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:16:27+08:00 ] ::1 /cms/Home/List/index/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=10 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=10 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:29+08:00 ] ::1 /cms/Home/List/index/id/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=42 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:16:30+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:16:30+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:33+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:33+08:00 ] ::1 /cms/Home/List/index/id/3/p/Uploads/2017-10-11/59ddca887506c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:33+08:00 ] ::1 /cms/Home/List/index/id/3/p/Uploads/2017-10-11/59ddda8a0740a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:16:51+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:17:05+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:08+08:00 ] ::1 /cms/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 )  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:55:12+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:16+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:19+08:00 ] ::1 /cms/Home/List/index/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:23+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:24+08:00 ] ::1 /cms/Home/List/index/id/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=42 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:25+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:55:26+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:55:26+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:28+08:00 ] ::1 /cms/Home/List/index/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=5 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:29+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:30+08:00 ] ::1 /cms/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc LIMIT 4   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 )  [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 3 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+NOTIC: [2] Missing argument 4 for Home\Model\NavModel::getAllNews(), called in D:\wamp\www\cms\Application\Home\Controller\IndexController.class.php on line 24 and defined D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 24 行.
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: firstRow D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+NOTIC: [8] Undefined variable: limit D:\wamp\www\cms\Application\Home\Model\NavModel.class.php 第 38 行.
+SQL: SELECT c.id,`title`,`date` FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 )  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:55:33+08:00 ] ::1 /cms/Home/List/index/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=8 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:57:21+08:00 ] ::1 /cms/Home/List/index/id/8.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=8 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=8 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=8 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:57:25+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:57:27+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:57:29+08:00 ] ::1 /cms/Home/List/index/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:57:32+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:57:42+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:05+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:05+08:00 ] ::1 /cms/Home/List/index/id/%7B'/cms/'.$list_news['thumbnail']%7Cdefault='/cms/Public/img/none.jpg'%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:07+08:00 ] ::1 /cms/Home/List/index/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:07+08:00 ] ::1 /cms/Home/List/index/id/%7B'/cms/'.$list_news['thumbnail']%7Cdefault='/cms/Public/img/none.jpg'%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:08+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:08+08:00 ] ::1 /cms/Home/List/index/id/%7B'/cms/'.$list_news['thumbnail']%7Cdefault='/cms/Public/img/none.jpg'%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=0 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=0 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=0 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:59:09+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:09+08:00 ] ::1 /cms/Home/List/index/id/3/p/%7B'/cms/'.$list_news['thumbnail']%7Cdefault='/cms/Public/img/none.jpg'%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0020s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.050003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.002000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T17:59:52+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:52+08:00 ] ::1 /cms/Home/List/index/id/3/p/Uploads/2017-10-11/59ddca887506c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-11T17:59:52+08:00 ] ::1 /cms/Home/List/index/id/3/p/Uploads/2017-10-11/59ddda8a0740a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:55+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T17:59:56+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T17:59:58+08:00 ] ::1 /cms/Home/List/index/id/1/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 2,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:00:01+08:00 ] ::1 /cms/Home/List/index/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T18:00:03+08:00 ] ::1 /cms/Home/List/index/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=5 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=5 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:00:04+08:00 ] ::1 /cms/Home/List/index/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:00:05+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:00:06+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:00:06+08:00 ] ::1 /cms/Home/List/index/id/3/p/Uploads/2017-10-11/59ddca887506c.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:00:06+08:00 ] ::1 /cms/Home/List/index/id/3/p/Uploads/2017-10-11/59ddda8a0740a.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T18:01:55+08:00 ] ::1 /cms/Home/List/index/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T18:02:27+08:00 ] ::1 /cms/Home/List/index/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T18:02:57+08:00 ] ::1 /cms/Home/List/index/id/3/p/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-10-11T18:03:01+08:00 ] ::1 /cms/Home/List/index/id/3/p/2.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 2,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:03:31+08:00 ] ::1 /cms/Home/List/index/id/42.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=42 ) LIMIT 0,2   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=42 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=42 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:03:32+08:00 ] ::1 /cms/Home/List/index/id/1.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=1 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:03:34+08:00 ] ::1 /cms/Home/List/index/id/3.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=3 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=3 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:03:35+08:00 ] ::1 /cms/Home/List/index/id/4.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=4 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=4 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=4 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-11T18:03:38+08:00 ] ::1 /cms/Home/List/index/id/5.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=5 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=5 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=5 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-10-11T18:03:39+08:00 ] ::1 /cms/Home/List/index/id/10.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `cms_nav` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( pid=0 ) ORDER BY sort asc  [ RunTime:0.0010s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=10 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT `pid` FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT n.nav_name,c.id,c.title,c.date,c.thumbnail,c.keyword,c.count,c.info FROM cms_nav n INNER JOIN cms_content c on n.id=c.nav  WHERE ( n.pid=10 ) LIMIT 0,2   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`nav_name` FROM `cms_nav` WHERE ( pid=10 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `cms_nav` WHERE ( id=10 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: Run Behavior\TokenBuildBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

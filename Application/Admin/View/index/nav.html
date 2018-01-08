@@ -1,0 +1,59 @@
+<include file="public/nav_header"/>
+
+<form method="post" action="">
+    <table cellspacing="0">
+        <tr>
+            <th>编号</th>
+            <th>导航名称</th>
+            <th>描述</th>
+            <th>子类</th>
+            <th>操作</th>
+            <th>排序</th>
+        </tr>
+        <foreach name="nav" item="navs">
+            <tr>
+                <td>
+                    {$navs.id}
+                </td>
+                <td>{$navs.nav_name}</td>
+                <td>{$navs.info}</td>
+                <td><a href="{:U('Admin/Index/nav',array('id'=>$navs['id']))}">查看</a> | <a href="{:U('Admin/Index/add_nav',array('id'=>$navs['id']))}">增加子类</a>
+                </td>
+                <td><a href="{:U('Admin/Index/modify_nav',array('id'=>$navs['id']))}">修改</a> | <a href="{:U('Admin/Index/delete_nav',array('id'=>$navs['id']))}"
+                                                                     onclick="return confirm('你真的要删除这个导航吗？') ? true : false">删除</a>
+                </td>
+                <td><input type="text" name="sort" value="{$navs.sort}" class="text sort"/></td>
+            </tr>
+        </foreach>
+    </table>
+</form>
+<div id="page"><span class="me">1</span> <span class="disabled">上一页</span><span class="disabled">下一页</span></div>
+
+
+</body>
+<script type="text/javascript">
+    $(function(){
+        $("input[name='sort']").blur(function () {
+            var val = $(this).val();
+            var id = $(this).parent().siblings('td:first').html();
+            //console.log(id);
+            $.ajax({
+               url: "{:U('Admin/Index/change_sort')}",
+                type: "post",
+                data: {"id":id,"val":val},
+                dataType: "json",
+                success: function (data) {
+                    if (data.status == -1) {
+                        alert(data.info);
+                    } else if (data.status == 1) {
+                        location.reload();
+                    } else {
+                        alert(data.info);
+                    }
+                }
+            });
+        });
+    });
+</script>
+</html>   
+  
